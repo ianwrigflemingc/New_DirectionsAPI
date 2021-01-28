@@ -1,0 +1,127 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>New_Directions_API</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h2> New Directions URL</h2>
+<a href="https://maps.googleapis.com/maps/api/directions/json?origin=Neebing+Ontario&destination=Thunder+Bay+Ontario&key=AIzaSyA5a1FoKmbmQ1djPh6pRx7oiknBf3ACNOE">Directions URL </a>
+<h2> JSON Response Example</h2>
+<p></p>
+<p>{
+    "geocoded_waypoints" : [
+       {
+          "geocoder_status" : "OK",
+          "place_id" : "ChIJCy8QK1D6WE0RD_dRpfD6QOE",
+          "types" : [ "locality", "political" ]
+       },
+       {
+          "geocoder_status" : "OK",
+          "place_id" : "ChIJjekWTHchWU0RdIsdjzRXBT0",
+          "types" : [ "locality", "political" ]
+       }
+    ],
+    "routes" : [
+       {
+          "bounds" : {
+             "northeast" : {
+                "lat" : 48.3808681,
+                "lng" : -89.24768189999999
+             },
+             "southwest" : {
+                "lat" : 48.1885915,
+                "lng" : -89.48405889999999
+             }
+          },
+          "copyrights" : "Map data ©2021 Google",
+          "legs" : [
+             {
+                "distance" : {
+                   "text" : "34.6 km",
+                   "value" : 34644
+                },
+                "duration" : {
+                   "text" : "27 mins",
+                   "value" : 1607
+                },
+                "end_address" : "Thunder Bay, ON, Canada",
+                "end_location" : {
+                   "lat" : 48.3808589,
+                   "lng" : -89.24768189999999
+                },
+                "start_address" : "Neebing, ON P7L 0B3, Canada",
+                "start_location" : {
+                   "lat" : 48.1885915,
+                   "lng" : -89.46219809999999
+                },
+                "steps" : [
+                   {
+                      "distance" : {
+                         "text" : "30.7 km",
+                         "value" : 30673
+                      },
+                      "duration" : {
+                         "text" : "20 mins",
+                         "value" : 1194
+                      },
+                      "end_location" : {
+                         "lat" : 48.3800143,
+                         "lng" : -89.3007508
+                      },
+                      "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eHwy 61 N\u003c/b\u003e toward \u003cb\u003eCopper Cliff Rd E\u003c/b\u003e",
+                      "polyline" : {
+                         "points" : "uybeHva`aPcEn@eEp@kDh@G@cDf@eEp@oB\\u@NsCl@y@NcFbA{Dt@cJ`Bk@JmCd@qATuDn@}B\\uEr@OBiFv@s@JMBaDd@oDh@e@HiBViC`@wCb@qBZy@JmEl@QBcFp@_ALwBZi@FYFUDC@QDe@Ja@LODa@P_@Lm@Zo@\\e@V[R_@Vg@^SL_Ap@kAz@qCtBaE`DcEbDoCtB}ApAkA~@aAr@]Tw@d@u@`@ULGBc@PmAd@MDkGnBoA`@aCv@G@sEzA}Af@oEzAaA\\yE|A[HiCz@}Bt@o@Nc@JODo@Jw@Hk@FO@cAFe@@gBBg@?aBBm@@aA@kBBmB@oCBs@@eABU?]@k@Dk@DWD]DyANgALgHx@WBs@Hw@H[DkALC?{@JsANq@HcARy@Pi@NYJUHw@Xi@Tq@Zg@ZYNMHQLYPe@\\A?e@b@g@d@s@n@q@r@YZg@b@e@b@_@Z]Vq@d@e@Xk@Z[Ng@Ts@Xk@Rk@Nc@LYFOBo@J_@Fk@Fi@Dw@Be@?{@@]?}D?mBAgB?s@@gAAw@?_A?yA?Y?g@?oA?oA?qA?E?aAAaACI?g@Am@E_@Cq@EKAe@Go@Gy@M{@O[Ea@IQE}@Qs@QA?gAWkASw@OeAMqAMa@Ea@Ck@EI?}@EeACw@?w@?aA@w@@aADw@F{@FcAJgAHcAJe@DWBaIt@K@kBRc@Bk@F{@HA?sBRo@FuALQBoALm@D_@DC?c@Bk@Be@@k@@s@?}C@kC@uB@y@@kA?uB@mE@K?iE@A@cD@M?{FBc@?mB@uB?W?S?OA[?k@Ck@Ee@Ee@Ia@Gc@Ii@Mc@Ma@Iq@Wo@Wq@]c@Se@Wm@a@aAs@eBsAeAy@y@m@g@a@_@[s@k@w@m@iA{@qAeAm@e@iBwAgDkCi@_@oAcAgCoBoAcAgA{@iA{@w@o@cBoAy@q@[YcAu@eBsAsB_BoB}A_As@oAaA]WaAw@aCkBw@o@mA_Ao@e@y@q@aAu@CEiA{@_Au@sB_B}AmAiA}@SO{AkAi@a@w@m@oAaAaBqAqAcAiA}@q@i@iA{@kA}@u@o@[Y_@_@c@c@]]c@g@_@c@W_@W[Ya@]g@U_@_@m@[k@a@u@c@_Aq@{A]{@Um@Ws@Ww@Uu@Uu@Sy@Qw@S}@WoAWmASuAYsBMkAKgAIcAIcAGw@E}@EqAEeAAmAAeAAkA?qB?}C?{G?}G@cB?iG?iJ?gJ?yE@kH?cK?yE?uM?mGAcIAaD?oC?yE?{P?mC?iA?_L?A?aD?aD?wN?{@?gC?_C?uI?qG?oCAiHAwBAgDAmFAyDA}J?yLAeE?eDAG?qC?WAoD?}EAaE?cD?aDCqO?sHAu@AuVAmE?wB?yE?sJ?aBA}A?{B?}A?u@?yDAuG?U?u@?}D?_G?_B?eBAgAA_AC_@Ci@Ci@Eq@Es@Iw@Iu@M{@O_AQ_AScACGQo@?C[cA[_Ae@iAEKYm@Uc@[k@s@sAcAiBIMsAaC_@q@]m@cAeBeAiBoBiDs@mAk@aA{@}AaAeBs@uAEKa@y@k@kAw@aBg@eA}@oBiAaCKSq@wAi@iAMY_AqBs@wAg@eAgBkDyAoCq@iAs@kAS[m@aA{@uAGIcAaBm@_AiByC{AeCcBqCkB}CsAyB[g@i@{@c@u@qBeDgAgB[i@w@qAoAsBcC_EoAsB{AiCCCcA_BGMo@eAwC}EiBwCgBwCsA{BOUk@_AaA_BiAmBSa@Yg@[o@Sc@MWMYQc@O]a@iAy@wBk@eBoCmH{G}Qm@_ByBqGaBsEy@aCQg@w@wB[{@k@{Ak@yAe@gA_@aA]{@GQKQUi@Wi@kBuDsDcHaB_DaAkB_@u@]s@Yk@Yo@Ui@_@}@Qc@aAkCOc@c@mAOc@Mc@w@gCi@cB[_Ae@iAUk@Yi@U_@U_@g@q@e@m@WY_@_@c@a@e@_@i@]CCa@Sa@Sg@UEAq@SMCYGGAc@IIAWCYCKAUAM?UAE?G?c@?U?M?gA?U?M?c@?c@?c@?c@?U?M?c@?}D?{@?gAAc@?gA?sE?gCA_A?_EB{C@W?uBB{@A_D@_GAq@A]Aa@A_@Ca@Ei@G_AQo@OQEi@O_@Mg@QGCa@O?A_@Qa@S]QCCeAq@g@]m@e@YWe@a@wBwBcAcAy@u@o@i@k@a@o@_@g@Wi@Uc@Qc@Mc@KOCs@Ma@Ee@CYCY?aBAm@?W?U?kD@G?c@?{D@A?iD@I?[AW?q@Ca@CG?OAGA}@Ow@Qk@Su@[QKKEYOm@a@a@[i@e@]]CC[_@e@m@a@i@c@u@CE_@w@c@aAYu@ACIUM_@[aAYiAOo@Qs@o@}Cm@yCEWaAwEAK_@yA[eA[aAi@wAa@_Ak@cA[e@{@iAk@m@]]MMi@a@e@_@k@[]Qi@Wa@Ow@Wc@Ie@Ie@Ea@Es@CsAAaB@{D?sD@"
+                      },
+                      "start_location" : {
+                         "lat" : 48.1885915,
+                         "lng" : -89.46219809999999
+                      },
+                      "travel_mode" : "DRIVING"
+                   },
+                   {
+                      "distance" : {
+                         "text" : "4.0 km",
+                         "value" : 3971
+                      },
+                      "duration" : {
+                         "text" : "7 mins",
+                         "value" : 413
+                      },
+                      "end_location" : {
+                         "lat" : 48.3808589,
+                         "lng" : -89.24768189999999
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eArthur St W\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                      "maneuver" : "turn-right",
+                      "polyline" : {
+                         "points" : "afhfHtp``PkAc@MEQMIKGOCMUmAAqA?{BIe@?yAAqL?iE?cEAqQ?mA?gF?cD@iI?aH@sD?qA?g@?cB?qL?aBAmDHgA?cBA}B@gAAaBC}AE]A}F?eR?gN?wG?yGBgD?uB?cB@yC?}A?sACsCAw@A}C?aE?cA?iA?cE?_@@sB@sG?gCA{CAyBAgG@}G@uG?}EA_F@cF?M"
+                      },
+                      "start_location" : {
+                         "lat" : 48.3800143,
+                         "lng" : -89.3007508
+                      },
+                      "travel_mode" : "DRIVING"
+                   }
+                ],
+                "traffic_speed_entry" : [],
+                "via_waypoint" : []
+             }
+          ],
+          "overview_polyline" : {
+             "points" : "uybeHva`aP}PlCiJxAeDl@mRvDoRhDyOdCmMlBiMlBqOxBmL~A}AViBd@aA^}Ax@iCbBqHpFsRlOmCrBuAz@wBdA{Aj@{IpC{L|DqGxBuFfBgGpBsAZ_APcBPsAHmCDyFF}KJeDJ{D`@{LtAcD\\oCZuB\\cB`@o@TaBn@yAv@sAx@g@\\mAhAgDbDeA~@oA|@qAt@cAd@_Bl@k@N}@T_ANkANaBH}H@qIAeO?sCEgDQ{C_@kCe@{D{@cCc@wC[yBOcCIoB?yBByBLkGh@cSjBkLfAyBHiKDwWJaVFcCKkAOeAQmA[sAa@aBu@iAk@oBuAkDmCuDwCmS}Oye@e_@aOkLmPmMmIuG}FsE}B{BsBgCmBwC}@aBuA{Cs@iBo@kBk@kBe@qBk@mCk@cDg@_EUkCQ{BKoCGsCCqC?iY@_a@@cb@Cie@?au@?uu@Mo~@Eka@MgqB?iOCmIQeDg@}Ea@_CWkAQs@w@cC{AgD}CwFkNkVwDeHmDmHqJkSoCqFkCyEqD_GcFeI_KoPgMwSgQsYuHaMkEoHwAsCqAeDqOib@gDqJ{CuIqCwHoC_HaAwBcMeVqBeEu@gBsAoDqAyDaBkFaAiCo@uAk@_AmA_Bw@y@iAaAm@a@qB_AaBa@_BSmCE_WA{IA_GBeJB_L?oACaAEkAMoBa@{@UqBs@_By@iAu@uAcA_Ay@{D{DiB_B{AaAqAm@gA_@s@OuAS_AG{BAgG@iF@gF?kBIeAQcBe@mB}@oA}@gAcA_@c@gAwAg@{@cAyBs@oBu@kCa@cBeDgPa@eBw@gCkAwCgAiBgBwBk@k@oAaAiAm@kAg@{Aa@kAOuAIeP@yAi@[YK]UmAAqA?{BIe@AkOAm`@Bik@?sOAmDHgAAaF?iDC}AE]AcZ?_WBaM@qMG}LBca@CuG?eP@w\\?M"
+          },
+          "summary" : "Hwy 61 N",
+          "warnings" : [],
+          "waypoint_order" : []
+       }
+    ],
+    "status" : "OK"
+ }
+ }</p>
+</body>
+</html>
